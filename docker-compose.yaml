@@ -22,7 +22,7 @@ services:
     volumes:
       - ./glpi/:/var/www/html/glpi
     environment:
-      - TIMEZONE=Europe/Madrid
+      - TIMEZONE=America/Argentina/Mendoza
     restart: unless-stopped
     
     
